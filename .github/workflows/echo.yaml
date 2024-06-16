@@ -14,7 +14,7 @@ jobs:
         - name: Checkout repository of reusable action
           uses: actions/checkout@v4
           with:
-            repository: sparkmuse/sharedworkflows
+            repository: sparkmuse/sharedworkflows@9b4c2019ce8200b02b23e06e527e9d90fed580bb
             path: ./sharedactions
         
         - run: ls ./sharedactions/.github/actions -a
