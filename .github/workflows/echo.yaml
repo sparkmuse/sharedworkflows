@@ -20,4 +20,4 @@ jobs:
         - run: ls sharedactions/.github/actions -a
 
         - name: Use it
-          uses: sharedactions/.github/actions/echo-hello-world@v2
+          uses: ./sharedactions/.github/actions/echo-hello-world@v2
