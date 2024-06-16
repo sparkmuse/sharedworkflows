@@ -18,4 +18,4 @@ jobs:
             path: sharedactions
         
         - name: Use it
-          uses: sharedactions/.github/actions/echo-hello-world@v1 
+          uses: sharedactions/.github/actions/echo-hello-world@v2
