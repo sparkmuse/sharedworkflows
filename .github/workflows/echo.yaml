@@ -17,5 +17,7 @@ jobs:
             repository: sparkmuse/sharedworkflows
             path: sharedactions
         
-        - name: Use it
-          uses: sharedactions/.github/actions/echo-hello-world@v2
+        - run: ls sharedactions 
+
+        # - name: Use it
+        #   uses: sharedactions/.github/actions/echo-hello-world@v2
