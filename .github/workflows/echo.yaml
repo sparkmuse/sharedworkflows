@@ -8,4 +8,12 @@ jobs:
   reusable_workflow_job:
     runs-on: ubuntu-latest
     steps:
-    - run: echo Hello
+        - name: Checkout repository
+          uses: actions/checkout@v4
+        
+        - name: Checkout repository of reusable action
+          uses: actions/checkout@v4
+          with:
+            repository: sparkmuse/sharedworkflows
+            path: .github/actions
+            
