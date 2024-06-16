@@ -14,10 +14,10 @@ jobs:
         - name: Checkout repository of reusable action
           uses: actions/checkout@v4
           with:
-            repository: sparkmuse/sharedworkflows
+            repository: sparkmuse/sharedworkflows@v2
             path: sharedactions
         
-        - run: ls sharedactions 
+        - run: ls sharedactions -a
 
         # - name: Use it
         #   uses: sharedactions/.github/actions/echo-hello-world@v2
