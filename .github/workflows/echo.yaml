@@ -15,9 +15,9 @@ jobs:
           uses: actions/checkout@v4
           with:
             repository: sparkmuse/sharedworkflows
-            ref: v2
+            ref: d6a8a7e0542e813d43326bfaa6b2b08613d07441
             path: ./sharedactions
-        
+
         - run: ls ./sharedactions/.github/actions -a
 
         - name: Use it
